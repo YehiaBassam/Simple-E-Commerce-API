@@ -1,0 +1,35 @@
+.navbar-nav li a:hover
+{
+    background-color: brown;
+    border-radius: 40%;
+    transition: .4s;
+}
+
+.navbar-brand
+{
+  margin-left: 80px ;
+}
+
+
+.mycontainer
+{
+    margin-top: 80px;
+}
+
+
+.fly
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: darkviolet;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    z-index: 300;
+}
+
+#view_Container
+{
+    margin-top: 110px;
+}

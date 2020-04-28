@@ -1,0 +1,185 @@
+.header
+{
+    height: 712px;
+}
+
+.navbar
+{
+    z-index: 99;
+}
+
+@media screen and (max-width:767px) 
+{
+    .navbar-collapse 
+    {
+        background-color: darkgrey;
+    }
+
+}
+
+.navbar-brand
+{
+    padding-right: 200px !important;
+}
+
+.navbar a
+{
+    color: rgb(223, 5, 5) !important;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.navbar-collapse a:hover
+{
+    color: blue !important;
+    background-color: orangered;
+}
+
+.dropdown-menu a
+{
+  background-color: gray !important;
+}
+
+/* .carousel-indicators li
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+
+} */
+
+#myCarousel
+{
+    width: 100% ;
+    position: absolute;
+    top: 0 !important;
+    /* padding-right: 150px; */
+}
+
+.carousel .item {
+    height: 700px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+
+
+  @media screen and (max-width: 1230px) 
+    {
+
+      .carousel .item 
+      {
+        height: 300px;
+      }
+      
+      .navbar-brand
+     {
+        margin-right: auto;
+     }
+    
+     .second
+     {
+         position: relative;
+         top: -210px !important;
+     }
+
+     .second h1,p,h4
+     {
+         padding-bottom: 50px;
+     }
+  }
+
+  .img-item
+  {
+      position: relative;
+  }
+
+.img-cover
+{
+    width: 546px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    transition: all .3s;
+    opacity: 0;
+}
+
+.img-cover h3
+{
+    color: white;
+}
+
+.img-cover:hover
+{
+    opacity: 1;
+}
+
+.forth ,.fifth,.sixth
+{
+    margin-top: 200px;
+}
+
+.forth img
+{
+    width: 500px;
+    height: 500px;
+}
+
+.sixth
+{
+    height: 700px;
+    background-color: darkgray;
+}
+
+.seventh
+{
+    background-color: cadetblue;
+    height: 200px;
+}
+
+
+footer
+{
+    height: 250px;
+    background-color: orange;
+}
+
+@media screen and (max-width: 1230px) 
+{
+
+  footer
+  {
+    height: 400px;
+  }
+
+@media screen and (max-width: 767px) 
+    {
+
+      footer
+      {
+        height:  700px;
+      }
+
+      .sixth
+      {
+        height: 800px;
+      }
+
+  }
+
+ 
+  
+
+
+
+
+
+
+

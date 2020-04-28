@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/project.css">
+
+    <title>Cart</title>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top ">
+        <a class="navbar-brand text-white" href="Home.html">E-Commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item pr-4 ">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item pr-4 ">
+                <a class="nav-link text-white" href="about/index.html">About</a>
+              </li>
+              <li class="nav-item pr-4 ">
+                <a class="nav-link text-white" href="contact_us.html">Contact us</a>
+              </li>
+              <li class="nav-item pr-4 ">
+                <a class="nav-link text-white" href="cart.html">Cart</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-12 text-center mt-5 text-secondary"><h1>Cart</h1></div>
+              <div class="col-md-6 d-flex justify-content-between text-primary mt-4">
+                  <p>Product</p>
+                  <p>Price</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-between text-primary mt-4">
+                    <p>Quantity</p>
+                    <p>Total</p>
+                  </div>
+                  <p class="text-muted">______________________________________________________________________________________________________________________________________________________________________________</p>
+                </div>
+              </div>
+
+
+  <div id="cartItems">
+  </div>
+                  
+  
+  <div class="container" id="Cart_Total">
+    <div class="row">
+        <div class="col-md-6 ml-auto" style="margin: 40px 0 40px 0 ;">
+            <h2 class="text-muted">Cart Total</h2>
+            <span class="text-warning">-----------------------------</span>
+            <span>------------------------------------------------------</span>
+            <div class="d-flex justify-content-lg-between">
+                <p class="font-weight-bold text-danger" >Total</p>
+                <p id="Cart_total_cost" class=" font-weight-bold text-success">
+                <span>$</span>0</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<div class="col-md-6 ml-auto">
+  <span id="confirm"></span>
+</div>
+
+<div class="col-md-6 ml-auto">
+  <button type="button" class="btn btn-info btn-lg mb-5" style="border-radius: 20px;" id="purchasing">Continue purchasing</button>
+</div>
+
+
+<script src="JS/jquery-3.4.1.js" ></script>
+<script src="JS/popper.min.js" ></script>
+<script src="JS/bootstrap.js" ></script>
+<script src="JS/Cart.js"></script>
+
+</body>
+</html>
